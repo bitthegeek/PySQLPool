@@ -18,7 +18,7 @@ setup(name='PySQLPool',
                      'Programming Language :: Python',
                      'Operating System :: OS Independent',
                      'Development Status :: 5 - Production/Stable'],
-      requires=['MySQL-python'],
+      install_requires=['MySQL-python'],
       provides=['pysqlpool','PySQLPool'],
       packages=['PySQLPool']
      )
